@@ -1,7 +1,7 @@
 /**********************************************************
  * This component will be changed during integration
  *********************************************************/
-export const dynamic = "force-dynamic";
+//export const dynamic = "force-dynamic";
 
 "use client";
 
@@ -23,6 +23,8 @@ import { useStoreSetupContext } from "@/app/(auth)/contexts/storeSetupContext";
 import { ArrowBackButton } from "../../ui/buttons";
 import { SellersHubLogo } from "../../ui/logos";
 import { useModalContext } from "@/app/contexts/modalContext";
+
+export const dynamic = "force-dynamic";
 
 const StoreSetup = () => {
     const { currentStep, navigateToNextStep, navigateToPreviousStep, navigateToSpecificStep } =
