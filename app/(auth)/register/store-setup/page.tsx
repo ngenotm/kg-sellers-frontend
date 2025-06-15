@@ -1,6 +1,7 @@
 /**********************************************************
  * This component will be changed during integration
  *********************************************************/
+export const dynamic = "force-dynamic";
 
 "use client";
 
